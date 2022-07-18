@@ -1,0 +1,48 @@
+.switch {
+  position: relative;
+
+  > .track {
+    direction: ltr;
+    display: inline-block;
+    width: 52px;
+    height: 18px;
+    position: relative;
+    background-color: #f5f2f2;
+    transition: border-color 0.3s;
+  }
+
+  > .thumb {
+    box-sizing: border-box;
+    position: absolute;
+    top: -2px;
+    right: 4px;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background-color: #fff;
+    border: 2px solid #757575;
+    -webkit-transition: background-color 0.3s ease-in-out,
+      right 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out, right 0.3s ease-in-out;
+  }
+
+  > input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    appearance: none;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+
+  &.active {
+    > .thumb {
+      border: 1px solid #000;
+      background-color: #424242;
+      right: 26px;
+    }
+  }
+}
