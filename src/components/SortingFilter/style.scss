@@ -1,0 +1,56 @@
+.sorting-filter {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+
+  > .label {
+    font-weight: 500;
+    color: #757575;
+  }
+
+  > .filters {
+    display: flex;
+    column-gap: 8px;
+
+    button {
+      font-family: "dana";
+      position: relative;
+      min-height: 28px !important;
+      height: 28px;
+      min-width: fit-content;
+      padding: 8px;
+      background-color: transparent;
+      border: 1px solid #e0e0e0;
+      box-sizing: border-box;
+
+      &:hover {
+        background-color: #e0e0e0;
+      }
+
+      &.active {
+        background-color: #ffc453;
+        border-color: transparent;
+
+        > .label {
+          font-weight: 600;
+        }
+      }
+
+      > .label {
+        line-height: 0.9;
+      }
+    }
+
+    input {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      appearance: none;
+      width: 100%;
+      height: 100%;
+      cursor: pointer;
+    }
+  }
+}
