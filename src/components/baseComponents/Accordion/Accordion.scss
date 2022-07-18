@@ -1,0 +1,37 @@
+.accordion {
+  > .accordion-item {
+    > .header {
+      display: flex;
+      justify-content: space-between;
+      padding: 16px 32px;
+      font-size: 16px;
+      cursor: pointer;
+
+      > .button {
+        height: 15px;
+        width: 15px;
+      }
+    }
+
+    > .body {
+      height: 0;
+      display: none;
+    }
+
+    &.active {
+      > .header > .button {
+        transform: rotate(180deg);
+        transform-origin: 50% 90%;
+
+        > svg {
+          padding-top: 5px;
+        }
+      }
+      > .body {
+        height: fit-content;
+        display: flex;
+        padding: 12px 32px;
+      }
+    }
+  }
+}
