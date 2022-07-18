@@ -1,0 +1,18 @@
+.app {
+  display: grid;
+  grid-template-columns: 300px auto;
+  margin: 0 64px;
+
+  > .side-filter {
+    position: sticky;
+    top: 0;
+    height: fit-content;
+  }
+
+  > .main-items {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 32px;
+  }
+}
