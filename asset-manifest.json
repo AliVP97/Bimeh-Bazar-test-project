@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.50623d7c.css",
+    "main.js": "/static/js/main.196d8cdb.js",
+    "static/media/dana-fanum-demibold.woff": "/static/media/dana-fanum-demibold.9489fdc64cbab36c5bbc.woff",
+    "static/media/dana-fanum-regular.woff": "/static/media/dana-fanum-regular.791437174cdb4506f6de.woff",
+    "static/media/dana-fanum-medium.woff": "/static/media/dana-fanum-medium.7ef65a09d5b57ad1a2fc.woff",
+    "static/media/dana-fanum-demibold.woff2": "/static/media/dana-fanum-demibold.606ee4ede1f9de62b0bc.woff2",
+    "static/media/dana-fanum-regular.woff2": "/static/media/dana-fanum-regular.cd89c4bbb5d68d78d5fd.woff2",
+    "static/media/dana-fanum-medium.woff2": "/static/media/dana-fanum-medium.3c7fcbd8ab0682219f68.woff2",
+    "index.html": "/index.html",
+    "main.50623d7c.css.map": "/static/css/main.50623d7c.css.map",
+    "main.196d8cdb.js.map": "/static/js/main.196d8cdb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.50623d7c.css",
+    "static/js/main.196d8cdb.js"
+  ]
+}
